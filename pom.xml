@@ -26,7 +26,7 @@
 						 <execution>
          						<phase>package</phase>
         						 <configuration>
-           							<webXml>src\main\webapp\WEB-INF\web.xml</webXml>
+           							<webXml>${project.basedir}\src\main\webapp\WEB-INF\web.xml</webXml>
          						</configuration>
       						</execution>
     					</executions>
