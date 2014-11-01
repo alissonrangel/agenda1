@@ -13,7 +13,7 @@ public class ConexaoTest {
 			
 		String resultado = conexao.getContato();
 		
-		assertEquals("message", "Alisson", "Alisson");
+		assertEquals("message", "Alisson", resultado);
 	}
 
 }
