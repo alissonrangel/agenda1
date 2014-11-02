@@ -18,9 +18,9 @@ import java.util.logging.Logger;
  */
 public class Conexao {
     private final String driver="org.gjt.mm.mysql.Driver";
-    private final String url="jdbc:mysql://localhost:3306/agenda";
-    private final String usuario="root";
-    private final String senha="alisson";
+    private final String url="jdbc:mysql://localhost:3306/jbossews";
+    private final String usuario="adminkxWRtET";
+    private final String senha="Gywj7MdIDA5B";
     private Connection Con;
     
     public Conexao(){
