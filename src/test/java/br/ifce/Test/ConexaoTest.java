@@ -9,11 +9,11 @@ public class ConexaoTest {
 
 	@Test
 	public void test() {
-		//Conect conexao = new Conect();
+		Conect conexao = new Conect();
 			
-		//String resultado = conexao.getContato();
+		String resultado = conexao.getContato();
 		
-		assertEquals("message", "Alisson", "Alisson");
+		assertEquals("message", "Alisson", resultado);
 	}
 
 }
