@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  */
 public class Conexao {
     private final String driver="org.gjt.mm.mysql.Driver";
-    private final String url="jdbc:mysql://localhost:3306/jbossews";
+    private final String url="mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/jbossews";
     private final String usuario="adminkxWRtET";
     private final String senha="Gywj7MdIDA5B";
     private Connection Con;
