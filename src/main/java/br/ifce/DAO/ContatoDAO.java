@@ -30,7 +30,7 @@ public class ContatoDAO {
     
     public boolean salvarContato(ContatoBean contato){
         try {
-            String sql = "insert into contato (nome, endereco, cidade, uf, telefone,"
+            String sql = "insert into contato2 (nome, endereco, cidade, uf, telefone,"
                     + "celular, email) values (?, ?, ?, ?, ?, ?, ?);";
             
             PreparedStatement stm = Con.getConnection().prepareStatement(sql);
@@ -57,7 +57,7 @@ public class ContatoDAO {
     
     public boolean editarContato(ContatoBean contato){
         try {
-            String sql = "update contato set nome = ?, endereco = ?, cidade = ?, "
+            String sql = "update contato2 set nome = ?, endereco = ?, cidade = ?, "
                     + "uf = ?, telefone = ?, celular = ?, email = ? where id = ?;";
             
             PreparedStatement stm = Con.getConnection().prepareStatement(sql);
@@ -84,7 +84,7 @@ public class ContatoDAO {
     
     public boolean excluirContato(ContatoBean contato){
         try {
-            String sql = "delete from contato where id=?;";
+            String sql = "delete from contato2 where id=?;";
             
             PreparedStatement stm = Con.getConnection().prepareStatement(sql);
           
@@ -105,7 +105,7 @@ public class ContatoDAO {
         
         List<ContatoBean> lista = new ArrayList<ContatoBean>();
         try {
-            String sql = "select * from contato;";
+            String sql = "select * from contato2;";
             
             PreparedStatement stm = Con.getConnection().prepareStatement(sql);
         
