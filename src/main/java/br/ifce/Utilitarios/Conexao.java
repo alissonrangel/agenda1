@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @author Alisson
  */
 public class Conexao {
-    private final String driver="org.gjt.mm.mysql.Driver";
+    private final String driver="com.mysql.jdbc.Driver";
     private final String url="jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/jbossews";
     private final String usuario="adminkxWRtET";
     private final String senha="Gywj7MdIDA5B";
